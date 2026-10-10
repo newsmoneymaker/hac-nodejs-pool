@@ -32,8 +32,14 @@
   },
 
   "api": {
+    "enabled": true,
+    "bindIp": "127.0.0.1",
     "port": 8143,
-    "blocks": 30
+    "hashrateWindow": 600,
+    "updateInterval": 5,
+    "blocks": 30,
+    "payments": 30,
+    "coinDifficultyTarget": 300
   },
 
   "blockUnlocker": {
