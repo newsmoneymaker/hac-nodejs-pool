@@ -1,0 +1,22 @@
+{
+  "name": "hac-nodejs-pool",
+  "version": "1.0.0",
+  "license": "GPL-2.0",
+  "author": "hac-nodejs-pool contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newsmoneymaker/hac-nodejs-pool.git"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "redis": "3.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "description": "Hacash (HAC) mining pool: X16RS over a custom HTTP mining API (no Stratum), TCP JSON-RPC job distribution, PROP payouts",
+  "homepage": "https://github.com/newsmoneymaker/hac-nodejs-pool",
+  "bugs": {
+    "url": "https://github.com/newsmoneymaker/hac-nodejs-pool/issues"
+  }
+}

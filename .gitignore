@@ -1,0 +1,7 @@
+node_modules/
+config.json
+logs/*.log
+*.o
+hasher/x16rshash
+hasher/test_e2e.js
+hasher/test_client.js

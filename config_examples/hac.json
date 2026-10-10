@@ -1,0 +1,53 @@
+{
+  "poolHost": "hac.pool-pay.com",
+  "coin": "Hacash",
+  "symbol": "HAC",
+
+  "logging": {
+    "level": "info"
+  },
+
+  "daemon": {
+    "host": "127.0.0.1",
+    "port": 8082,
+    "timeout": 8000
+  },
+
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6400,
+    "auth": ""
+  },
+
+  "poolServer": {
+    "host": "0.0.0.0",
+    "port": 5100,
+    "pollIntervalMs": 3000,
+    "shareDifficultyFactor": 65536
+  },
+
+  "hasher": {
+    "path": "./hasher/x16rshash",
+    "threads": 2
+  },
+
+  "api": {
+    "port": 8143,
+    "blocks": 30
+  },
+
+  "blockUnlocker": {
+    "enabled": true,
+    "interval": 60,
+    "depth": 30,
+    "poolFee": 1,
+    "donations": {}
+  },
+
+  "payments": {
+    "enabled": true,
+    "interval": 600,
+    "minPayment": 1,
+    "dryRun": true
+  }
+}
