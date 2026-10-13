@@ -5,3 +5,5 @@ logs/*.log
 hasher/x16rshash
 hasher/test_e2e.js
 hasher/test_client.js
+secrets/
+*.key

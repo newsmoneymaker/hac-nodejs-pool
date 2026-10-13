@@ -54,6 +54,8 @@
     "enabled": true,
     "interval": 600,
     "minPayment": 1,
-    "dryRun": true
+    "dryRun": true,
+    "privateKeyFile": "./secrets/pool_wallet.key",
+    "maxPaymentsPerTick": 10
   }
 }
